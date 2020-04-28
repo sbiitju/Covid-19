@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginHorizontal="20dp"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="উপহার পেতে নিচের ফর্মটি পূরন করুন"
+        android:textColor="#D50000"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="20dp"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:hint="Name\nনাম"
+        android:inputType="textAutoComplete"
+        android:gravity="center"
+        android:id="@+id/askname"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:hint="Number\nনাম্বার"
+        android:gravity="center"
+        android:inputType="phone"
+        android:id="@+id/asknumber"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"/>
+    <AutoCompleteTextView
+        android:layout_width="300dp"
+        android:layout_height="66dp"
+        android:hint="District\nজেলা"
+        android:inputType="textAutoComplete"
+        android:gravity="center"
+        android:id="@+id/askdistrict"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:hint="Write Your Address\nঠিকানা লিখুন"
+        android:gravity="center"
+        android:id="@+id/askaddress"
+        android:inputType="textPostalAddress"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:hint="Write Your Problem\nআপনার সমস্যা লিখুন"
+        android:gravity="center"
+        android:inputType="textLongMessage"
+        android:id="@+id/askproblem"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        />
+    <Spinner
+        android:layout_width="300dp"
+        android:id="@+id/askspiner"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:entries="@array/donationtype"
+        />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:background="#E7DD2C00"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:id="@+id/asksubmit"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_marginHorizontal="10dp"
+        android:layout_gravity="center"
+        android:text="Submit"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        />
+
+</LinearLayout>

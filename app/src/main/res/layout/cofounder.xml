@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="For becoming a cofounder\nyou must have to be a student"
+        android:textColor="#6200EA"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginBottom="5dp"
+        android:textAlignment="center"
+        />
+    <EditText
+        android:layout_marginBottom="5dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:hint="Name"
+        android:inputType="textAutoComplete"
+        android:id="@+id/cname"
+        />
+    <EditText
+        android:layout_marginBottom="5dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:inputType="textEmailAddress"
+        android:layout_gravity="center"
+        android:hint="Email"
+        android:id="@+id/cemail"
+        />
+    <EditText
+        android:layout_marginBottom="5dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:hint="Number"
+        android:inputType="number"
+        android:id="@+id/cnumber"
+        />
+
+
+    <AutoCompleteTextView
+        android:layout_marginBottom="5dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:hint="District"
+        android:inputType="textAutoComplete"
+        android:id="@+id/cdistrict"
+        />
+    <EditText
+        android:layout_marginBottom="5dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:hint="Your Institution"
+        android:id="@+id/cinstitution"
+        android:inputType="textAutoComplete"
+        />
+    <EditText
+        android:layout_marginBottom="5dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:hint="Subject"
+        android:inputType="textAutoComplete"
+        android:id="@+id/subject"
+        />
+    <Button
+        android:layout_width="200dp"
+        android:gravity="center"
+        android:id="@+id/csubmit"
+        android:background="#E7DD2C00"
+        android:text="Submit"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        />
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    >
+    <EditText
+        android:layout_marginTop="30dp"
+        android:layout_width="300dp"
+        android:layout_height="49dp"
+        android:hint="Your Number"
+        android:gravity="center"
+        android:inputType="number"
+        android:id="@+id/number"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="49dp"
+        android:hint="Amount"
+        android:gravity="center"
+        android:inputType="textEmailAddress"
+        android:id="@+id/email"
+        />
+    <Spinner
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:entries="@array/donationtype"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:background="#26DD2C00"
+        android:spinnerMode="dropdown"
+        android:id="@+id/spinner"
+        />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Verify"
+        android:textSize="16dp"
+        android:textStyle="italic"
+        android:textColor="#000000"
+        android:textAllCaps="false"
+        android:background="#ffffff"
+        android:id="@+id/submit"
+        android:layout_marginBottom="20dp"
+        />
+
+
+
+</LinearLayout>
